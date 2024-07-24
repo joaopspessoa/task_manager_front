@@ -1,75 +1,61 @@
-# Nuxt 3 Minimal Starter
+Peço desculpas por isso. Vamos ajustar o README.md para se alinhar melhor com o padrão desejado:
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+```markdown
+# Task Manager Front
 
-## Setup
+Este é o front-end do projeto Task Manager, desenvolvido com Vue.js e Nuxt.js. Este projeto oferece uma interface de usuário para gerenciar tarefas de forma eficiente.
 
-Make sure to install the dependencies:
+## Tecnologias Utilizadas
 
-```bash
-# npm
-npm install
+- [Vue.js](https://vuejs.org/): Framework JavaScript para construção de interfaces de usuário.
+- [Nuxt.js](https://nuxtjs.org/): Framework baseado em Vue.js para aplicações universais.
+- [TypeScript](https://www.typescriptlang.org/): Superconjunto tipado de JavaScript.
+- [@vueuse/nuxt](https://vueuse.org/guide/nuxt.html): Plugin VueUse para Nuxt.js.
+- [Docker](https://www.docker.com/): Plataforma para desenvolvimento e execução de aplicações em contêineres.
+- [Docker Compose](https://docs.docker.com/compose/): Ferramenta para definir e executar aplicações Docker multi-contêiner.
 
-# pnpm
-pnpm install
+## Dependências
 
-# yarn
-yarn install
+### Dependências Principais
 
-# bun
-bun install
-```
+- **`nuxt`**: Framework para desenvolvimento de aplicações Vue.js.
+- **`vue`**: Framework JavaScript para construção de interfaces de usuário.
+- **`typescript`**: Superconjunto tipado de JavaScript.
+- **`@vueuse/nuxt`**: Plugin VueUse para Nuxt.js.
 
-## Development Server
+### Dependências de Desenvolvimento
 
-Start the development server on `http://localhost:3000`:
+- **`@nuxt/typescript-build`**: Suporte TypeScript para Nuxt.js.
 
-```bash
-# npm
-npm run dev
+## Requisitos
 
-# pnpm
-pnpm run dev
+- **Node.js**: Versão 18 ou superior.
+- **Docker**: Plataforma para contêineres.
+- **Docker Compose**: Ferramenta para compor contêineres Docker.
 
-# yarn
-yarn dev
+## Configuração do Projeto
 
-# bun
-bun run dev
-```
+### Passo a Passo
 
-## Production
+1. **Clone o repositório:**
 
-Build the application for production:
+   ```bash
+   git clone https://github.com/joaopspessoa/task_manager_front.git
+   cd task-manager-front
+   ```
 
-```bash
-# npm
-npm run build
+2. **Construir e Iniciar o Contêiner:**
 
-# pnpm
-pnpm run build
+   Construa e inicie o contêiner Docker com o seguinte comando:
 
-# yarn
-yarn build
+   ```bash
+   docker-compose up -d --build
+   ```
 
-# bun
-bun run build
-```
+4. **Acessar a Aplicação:**
 
-Locally preview production build:
+   Após iniciar o contêiner, você pode acessar a aplicação no navegador através do seguinte URL:
 
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+   ```bash
+   http://localhost:3000
+   ```
