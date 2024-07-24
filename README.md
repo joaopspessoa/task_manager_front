@@ -1,6 +1,3 @@
-Peço desculpas por isso. Vamos ajustar o README.md para se alinhar melhor com o padrão desejado:
-
-```markdown
 # Task Manager Front
 
 Este é o front-end do projeto Task Manager, desenvolvido com Vue.js e Nuxt.js. Este projeto oferece uma interface de usuário para gerenciar tarefas de forma eficiente.
